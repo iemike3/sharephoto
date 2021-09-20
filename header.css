@@ -1,0 +1,27 @@
+
+header {
+    width: calc(100% - 30px);
+    height: 60px;
+    line-height: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /*border-bottom: solid 1px gray;*/
+    position: fixed;
+    background-color: #ffffff; 
+}
+
+header h3 {
+    margin: 0;
+    float: left;
+}
+
+header .usericon {
+    float: right;
+}
+
+header .usericon img {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 50px;
+}
